@@ -1,0 +1,23 @@
+{
+  "timestamp": "2024-07-26T19:32:41.302Z",
+  "metadata": {
+    "name": "Ethena",
+    "symbol": "ENA",
+    "description": "Ethena is a synthetic dollar protocol built on Ethereum that provides a crypto-native solution for money not reliant on traditional banking system infrastructure, alongside a globally accessible dollar-denominated savings instrument - the 'Internet Bond'.",
+    "image": "https://arweave.net/pIih7vHnV7Wzv5N3y6Vk8mP5nRp9caKW-XprHZXFfrA"
+  },
+  "accounts": [
+    {
+      "name": "SPL Token Mint Account",
+      "publicKey": "72QvBVwpxqmheEPfaCwWSWqEFsUy3rhWt6JhQBMNTwD1"
+    },
+    {
+      "name": "OFT Config Account",
+      "publicKey": "D2hZiYnFqNS9YgNRoDtK7zajKjxc68139niZ1MmD8aae"
+    },
+    {
+      "name": "OFT Program ID",
+      "publicKey": "5sVQd9aeB4GtFA3PFRK7gkGCNCQzovxh7faaGccwQXuU"
+    }
+  ]
+}

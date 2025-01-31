@@ -1,0 +1,23 @@
+{
+  "timestamp": "2024-07-26T20:52:56.435Z",
+  "metadata": {
+    "name": "Staked USDe",
+    "symbol": "sUSDe",
+    "description": "The Internet Bond, sUSDe will accumulates value from staked Ethereum as well as the funding & basis spread from perpetual and futures' markets, to create the first onchain crypto-native 'bond' that can function as a dollar-denominated savings instrument for users in permitted jurisdictions.",
+    "image": "https://arweave.net/iY7Aj5iwHKDIDL0m7QxeQN2URRrphWRpdKPJjE8fcaQ"
+  },
+  "accounts": [
+    {
+      "name": "SPL Token Mint Account",
+      "publicKey": "Eh6XEPhSwoLv5wFApukmnaVSHQ6sAnoD9BmgmwQoN2sN"
+    },
+    {
+      "name": "OFT Config Account",
+      "publicKey": "D27Yp9iR2UAgD8BkBbWrHeK6MooSQu353NJm3SVmEvXw"
+    },
+    {
+      "name": "OFT Program ID",
+      "publicKey": "CKsfN2UvdF6BxWmt12576GN4EtLynA7MxSqEm6jrCqMh"
+    }
+  ]
+}

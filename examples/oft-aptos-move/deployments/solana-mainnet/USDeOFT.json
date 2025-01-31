@@ -1,0 +1,23 @@
+{
+  "timestamp": "2024-07-26T20:48:53.260Z",
+  "metadata": {
+    "name": "USDe",
+    "symbol": "USDe",
+    "description": "USDe, provides the crypto-native, scalable solution for money achieved by delta-hedging Ethereum and Bitcoin collateral. USDe is fully-backed and free to compose throughout CeFi & DeFi.",
+    "image": "https://arweave.net/qeSnRm_FIyp_khPfmg8o1zQeGO4AczDaEKe8jEUOzL4"
+  },
+  "accounts": [
+    {
+      "name": "SPL Token Mint Account",
+      "publicKey": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT"
+    },
+    {
+      "name": "OFT Config Account",
+      "publicKey": "4x3oQtX4MhjTKGBeXDZbtTSLZ9cUWo5waN2UChAuthtS"
+    },
+    {
+      "name": "OFT Program ID",
+      "publicKey": "9S6fwN8gZsr3ikUH38QWPDbLzyJTYcQd5GtrEWzoS2y9"
+    }
+  ]
+}
