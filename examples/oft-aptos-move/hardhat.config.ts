@@ -52,29 +52,112 @@ const config: HardhatUserConfig = {
         ],
     },
     networks: {
-        'bsc-testnet': {
-            eid: EndpointId.BSC_V2_TESTNET,
-            url: process.env.RPC_URL_BSC || 'https://bsc-testnet.public.blastapi.io',
+        // adapter
+        'ethereum-mainnet': {
+            eid: EndpointId.ETHEREUM_V2_MAINNET,
+            url: process.env.RPC_URL_ETHEREUM || 'https://eth.llamarpc.com',
             accounts,
         },
-        'aptos-testnet': {
-            eid: EndpointId.APTOS_V2_TESTNET,
-            url: process.env.RPC_URL_APTOS_TESTNET || 'https://rpc.ankr.com/http/aptos_testnet/v1[1]',
+
+        'arbitrum-mainnet': {
+            eid: EndpointId.ARBITRUM_V2_MAINNET,
+            url: process.env.RPC_URL_ARBITRUM || 'https://arb1.arbitrum.io/rpc',
             accounts,
         },
-        'eth-testnet': {
-            eid: EndpointId.ETHEREUM_V2_TESTNET,
-            url: process.env.RPC_URL_ETHEREUM_TESTNET || 'https://sepolia.infura.io/v3/',
+        'base-mainnet': {
+            eid: EndpointId.BASE_V2_MAINNET,
+            url: process.env.RPC_URL_BASE || 'https://base.llamarpc.com',
             accounts,
         },
-        'solana-devnet': {
-            eid: EndpointId.SOLANA_V2_TESTNET,
-            url: process.env.RPC_URL_SOLANA_TESTNET || 'https://api.devnet.solana.com',
+        'bera-mainnet': {
+            eid: EndpointId.BERA_V2_MAINNET,
+            url: process.env.RPC_URL_BERA || 'TODO',
             accounts,
         },
-        hardhat: {
-            // Need this for testing because TestHelperOz5.sol is exceeding the compiled contract size limit
-            allowUnlimitedContractSize: true,
+        'blast-mainnet': {
+            eid: EndpointId.BASE_V2_MAINNET,
+            url: process.env.RPC_URL_BLAST || 'https://rpc.ankr.com/blast',
+            accounts,
+        },
+        'bsc-mainnet': {
+            eid: EndpointId.BSC_V2_MAINNET,
+            url: process.env.RPC_URL_BSC || 'https://bscrpc.com',
+            accounts,
+        },
+        'fraxtal-mainnet': {
+            eid: EndpointId.FRAXTAL_V2_MAINNET,
+            url: process.env.RPC_URL_FRAXTAL || 'https://rpc.staging.mainnet.frax.com/layer-zero',
+            accounts,
+        },
+        'kava-mainnet': {
+            eid: EndpointId.KAVA_V2_MAINNET,
+            url: process.env.RPC_URL_KAVA || 'https://evm.kava-rpc.com',
+            accounts,
+        },
+        'manta-mainnet': {
+            eid: EndpointId.MANTA_V2_MAINNET,
+            url: process.env.RPC_URL_MANTA || 'https://manta.nirvanalabs.xyz/mantapublic',
+            accounts,
+        },
+        'mantle-mainnet': {
+            eid: EndpointId.MANTLE_V2_MAINNET,
+            url: process.env.RPC_URL_MANTLE || 'https://mantle.drpc.org',
+            accounts,
+        },
+        'metis-mainnet': {
+            eid: EndpointId.METIS_V2_MAINNET,
+            url: process.env.RPC_URL_METIS || 'https://metis.drpc.org',
+            accounts,
+        },
+        'mode-mainnet': {
+            eid: EndpointId.MODE_V2_MAINNET,
+            url: process.env.RPC_URL_MODE || 'https://mainnet.mode.network/',
+            accounts,
+        },
+        'morph-mainnet': {
+            eid: EndpointId.MORPH_V2_MAINNET,
+            url: process.env.RPC_URL_MORPH || 'https://rpc.morph.network',
+            accounts,
+        },
+        'optimism-mainnet': {
+            eid: EndpointId.OPTIMISM_V2_MAINNET,
+            url: process.env.RPC_URL_OPTIMISM || 'https://mainnet.optimism.io',
+            accounts,
+        },
+        'plume-mainnet': {
+            eid: EndpointId.PLUME_V2_MAINNET,
+            url: process.env.RPC_URL_PLUME || 'https://plume.drpc.org',
+            accounts,
+        },
+        'scroll-mainnet': {
+            eid: EndpointId.SCROLL_MAINNET,
+            url: process.env.RPC_URL_SCROLL || 'https://scroll.drpc.org',
+            accounts,
+        },
+        'swell-mainnet': {
+            eid: EndpointId.SWELL_V2_MAINNET,
+            url: process.env.RPC_URL_SWELL || 'https://swell.drpc.org',
+            accounts,
+        },
+        'xlayer-mainnet': {
+            eid: EndpointId.XLAYER_V2_MAINNET,
+            url: process.env.RPC_URL_XLAYER || 'https://rpc.xlayer.tech',
+            accounts,
+        },
+        'zircuit-mainnet': {
+            eid: EndpointId.ZIRCUIT_V2_MAINNET,
+            url: process.env.RPC_URL_ZIRCUIT || 'https://zircuit.drpc.org',
+            accounts,
+        },
+        'zkconsensys-mainnet': {
+            eid: EndpointId.ZKCONSENSYS_V2_MAINNET,
+            url: process.env.RPC_URL_ZKCONSENSYS || 'https://zkconsensys.drpc.org',
+            accounts,
+        },
+        'zksync-mainnet': {
+            eid: EndpointId.ZKSYNC_V2_MAINNET,
+            url: process.env.RPC_URL_ZKSYNC || 'https://mainnet.zksync.io',
+            accounts,
         },
     },
     namedAccounts: {

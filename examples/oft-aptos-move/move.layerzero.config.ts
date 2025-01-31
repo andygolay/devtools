@@ -9,13 +9,13 @@ enum MsgType {
 }
 
 const bscContract: OmniPointHardhat = {
-    eid: EndpointId.BSC_V2_TESTNET,
+    eid: EndpointId.BSC_V2_MAINNET,
     contractName: 'MyOFT',
 }
 
 const aptosContract: OmniPointHardhat = {
-    eid: EndpointId.APTOS_V2_TESTNET,
-    contractName: 'MyOFT',
+    eid: EndpointId.APTOS_V2_MAINNET,
+    contractName: 'oft',
 }
 
 const config: OAppOmniGraphHardhat = {
